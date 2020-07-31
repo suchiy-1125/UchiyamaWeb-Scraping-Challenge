@@ -3,18 +3,6 @@
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
-### Before You Begin
-
-1. Create a new repository for this project called `web-scraping-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the web scraping challenge. Use a folder name to correspond to the challenge: **Missions_to_Mars**.
-
-4. Add your notebook files to this folder as well as your flask app.
-
-5. Push the above changes to GitHub or GitLab.
-
 ## Step 1 - Scraping
 
 Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
@@ -42,10 +30,7 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 
 * Make sure to save a complete url string for this image.
 
-```python
-# Example:
-featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
-```
+
 
 ### Mars Weather
 
@@ -54,10 +39,7 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 * **Note: Twitter frequently changes how information is presented on their website. If you are having difficulty getting the correct html tag data, consider researching Regular Expression Patterns and how they can be used in combination with the .find() method.**
 
 
-```python
-# Example:
-mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, pressure at 8.82 hPa, daylight 06:09-17:55'
-```
+
 
 ### Mars Facts
 
